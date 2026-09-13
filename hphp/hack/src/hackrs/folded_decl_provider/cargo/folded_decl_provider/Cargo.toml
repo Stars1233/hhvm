@@ -16,7 +16,7 @@ datastore = { path = "../../../datastore" }
 decl_enforceability = { path = "../../../decl_enforceability" }
 eq_modulo_pos = { path = "../../../../utils/eq_modulo_pos" }
 hash = { path = "../../../../utils/hash" }
-indexmap = { version = "2.14.0", features = ["arbitrary", "rayon", "serde"] }
+indexmap = { version = "2.14.2", features = ["arbitrary", "rayon", "serde"] }
 itertools = "0.15.0"
 oxidized = { path = "../../../../oxidized" }
 pos = { path = "../../../pos/cargo/pos" }
